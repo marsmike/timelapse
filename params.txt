@@ -1,0 +1,13 @@
+[input]
+input_dir = ./input/
+
+[output]
+output_file = ./output/video.mp4
+fps = 30
+duration = 0.5
+slow = 60,120,180
+
+[input_params]
+start = 0
+end = 360
+
