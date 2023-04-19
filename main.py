@@ -2,7 +2,6 @@ import argparse
 from config import Config
 from timelapse import Timelapse
 
-
 def main(param_file):
     # Read parameter file
     config = Config(param_file)
@@ -11,6 +10,7 @@ def main(param_file):
     timelapse = Timelapse(config)
     timelapse.run()
 
+# Run main function if this file is run as a script
 
 if __name__ == '__main__':
     # Define command-line arguments

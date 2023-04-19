@@ -1,3 +1,5 @@
 opencv-python-headless==4.5.3.56
 pillow==9.3.0
 numpy==1.22.0
+tqdm==4.65.0
+cv2==

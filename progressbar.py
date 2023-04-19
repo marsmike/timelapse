@@ -1,6 +1,8 @@
 import sys
 import time
 
+# Progress bar class
+# https://stackoverflow.com/questions/3173320/text-progress-bar-in-the-console
 
 class ProgressBar:
     def __init__(self, total, prefix='', suffix='', decimals=1, length=100, fill='#', print_end='\r'):
